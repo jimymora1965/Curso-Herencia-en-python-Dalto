@@ -16,7 +16,7 @@ class Artista:
 propiedades diferentes     """   
 
 class EmpleadoArtista(Persona,Artista):
-    def __init__(self,nombre,edad,nacionalidad, habilidad, salario,empresa):
+    def __init__(self,nombre,edad,nacionalidad, habilidad, salario, empresa):
         Persona.__init__(self,nombre, edad,nacionalidad)
         Artista.__init__(self,habilidad)
         self.salario = salario
