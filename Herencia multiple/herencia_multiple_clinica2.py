@@ -30,6 +30,6 @@ class Galeno(Clinica,TipoVinculacion,Sede,Especialidad):
         
 
 especialista = Galeno("Jimy","Mora","Anestesiologo","Vinculado","Prestador_Servicios","Antioquia","Medellin","Anestesiologo","cirujano","ortopedista",10000)
-print(especialista.n,especialista.esp)
+print(especialista.n,especialista.esp,especialista.ps)
         
         

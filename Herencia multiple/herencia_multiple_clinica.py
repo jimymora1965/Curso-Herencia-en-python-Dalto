@@ -9,7 +9,7 @@ class Sede:
     def __init__(self, departamento, ciudad):
        self.d = departamento
        self.e = ciudad
-class Universidad:
+class Universidad: 
     def __init__(self,javeriana, nacional, antioquia):
        self.j = javeriana 
        self.nal = nacional 
